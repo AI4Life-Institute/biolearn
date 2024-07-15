@@ -28,5 +28,5 @@ jobs:
       - name: Run sync script
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          NOTION_SERIES_DATABASE_ID: ${{ secrets.NOTION_SERIES_DATABASE_ID }}
         run: python scripts/sync_library_entry_to_notion.py
