@@ -5,6 +5,8 @@ on:
     paths:
       - "./biolearn/data/geo_autoscan_library.yaml"
   workflow_dispatch:
+    branches:
+      - sync-library-to-notion
 
 jobs:
   sync_to_notion:
