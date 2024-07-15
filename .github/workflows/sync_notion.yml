@@ -23,6 +23,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install python-dotenv
           pip install notion-client
+          pip install pyyaml
 
       - name: Run sync script
         env:
