@@ -3,7 +3,7 @@ name: Sync Library Entry to Notion
 on:
   push:
     paths:
-      - "./biolearn/data/geo_autoscan_library.yaml"
+      - biolearn/data/geo_autoscan_library.yaml
 
 jobs:
   sync_to_notion:
